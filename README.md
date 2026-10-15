@@ -1,3 +1,15 @@
+---
+title: Open Hair Stack — Scalp Analyzer
+colorFrom: indigo
+colorTo: blue
+sdk: gradio
+sdk_version: 5.44.0
+app_file: app.py
+pinned: false
+license: apache-2.0
+short_description: Open-source follicular-unit detection and density analysis. Research demo.
+---
+
 # scalp-analyzer
 
 > **The public face of Open Hair Stack:** a free website tool that analyzes scalp photos — no
@@ -13,7 +25,11 @@ that part is a sandbox for learning, not advice.
 **This is not a medical device and never will be.** It doesn't diagnose anything. Full
 honesty, in writing: [MEDICAL_DISCLAIMER.md](MEDICAL_DISCLAIMER.md)
 
-Live demo: https://huggingface.co/spaces/openhairstack/scalp-analyzer
+> **Live demo note:** the public demo is the static, browser-only version — free to host forever,
+> no uploads, works on phones: **https://huggingface.co/spaces/openhairstack/scalp-analyzer**
+> (source: [scalp-analyzer-web](https://github.com/openhairstack/scalp-analyzer-web)).
+> This repo is the original Gradio/Python version — still fully functional for local use and
+> self-hosting on any CPU machine.
 
 ---
 

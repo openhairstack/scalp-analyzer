@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 420" width="960" height="420" font-family="Segoe UI, Arial, sans-serif">
+  <rect width="960" height="420" fill="#0f1420"/>
+  <text x="40" y="46" fill="#e8ecf4" font-size="26" font-weight="700">Open Hair Stack — layers</text>
+  <text x="40" y="72" fill="#7d8aa3" font-size="15">every layer below ships with a README, an eval, and a license</text>
+
+  <!-- layer boxes -->
+  <g font-size="15">
+    <rect x="40" y="100" width="880" height="66" rx="10" fill="#16202f" stroke="#2a3a52"/>
+    <text x="64" y="138" fill="#e8ecf4" font-weight="700">4 · HARDWARE (later)</text>
+    <text x="330" y="138" fill="#9fb0cc">stereo-vision rig · needle mechanism CAD · CERN-OHL · partner labs</text>
+
+    <rect x="40" y="176" width="880" height="66" rx="10" fill="#16202f" stroke="#2a3a52"/>
+    <text x="64" y="214" fill="#e8ecf4" font-weight="700">3 · SIMULATION</text>
+    <text x="330" y="214" fill="#9fb0cc">graft-planning sandbox (this demo) · extraction RL env · seeded by real data</text>
+
+    <rect x="40" y="252" width="880" height="66" rx="10" fill="#16202f" stroke="#3cb44b"/>
+    <text x="64" y="290" fill="#e8ecf4" font-weight="700">2 · MODELS</text>
+    <text x="330" y="290" fill="#9fb0cc">follicle-detect: yolo11n baseline → benchmark · weights + eval + card · Apache 2.0</text>
+
+    <rect x="40" y="328" width="880" height="66" rx="10" fill="#16202f" stroke="#0082c8"/>
+    <text x="64" y="366" fill="#e8ecf4" font-weight="700">1 · DATA</text>
+    <text x="330" y="366" fill="#9fb0cc">data-pipeline: CC-BY datasets · validator · labeling guide · CC BY 4.0</text>
+  </g>
+
+  <!-- side notes -->
+  <text x="40" y="404" fill="#7d8aa3" font-size="13">you are here ↑ (layer 1–3 today; layer 4 is a collaboration, not a solo build)</text>
+</svg>

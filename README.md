@@ -99,3 +99,11 @@ No server side. No accounts. No telemetry. Uploads are processed in memory and n
 
 Research software. Not a medical device, not FDA/CE cleared, must not inform treatment.
 See [MEDICAL_DISCLAIMER.md](MEDICAL_DISCLAIMER.md).
+
+---
+
+### Questions & Community Support
+
+Connect with founder Salik Shah:
+* **DM on X:** [@salik](https://x.com/salik)
+* **Discussions:** [GitHub Discussions](https://github.com/orgs/openhairstack/discussions)

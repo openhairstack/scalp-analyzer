@@ -21,7 +21,7 @@ DISCLAIMER = (
 ABOUT = """
 ### What this actually does
 - **Detection:** an open YOLOv11 model detects follicular units and classifies each by hair
-  count (`fu1`=1, `fu2`=2–3, `fu3`=4–5, `fu4`=6+, `fu5`=unreadable).
+  count (`fu1`=1, `fu2`=2, `fu3`=3, `fu4`=4, `fu5`=5+).
 - **Stats:** FU counts, mean hairs per unit, and — if you calibrate scale — FU/cm² density
   split across anterior/middle/posterior bands.
 - **Heuristic:** a crude anterior-vs-posterior miniaturization readout. It is a heuristic, not

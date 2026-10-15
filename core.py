@@ -12,7 +12,7 @@ from dataclasses import dataclass, field
 
 CANON = ["fu1", "fu2", "fu3", "fu4", "fu5"]
 DEFAULT_MODEL_ID = "openhairstack/follicle-fu-v0.1"
-AVG_HAIRS_PER_UNIT = {"fu1": 1.0, "fu2": 2.5, "fu3": 4.5, "fu4": 7.0, "fu5": 3.0}
+AVG_HAIRS_PER_UNIT = {"fu1": 1.0, "fu2": 2.0, "fu3": 3.0, "fu4": 4.0, "fu5": 5.0}  # v0.1 classes = exact hair count
 CLASS_COLORS = {
     "fu1": (230, 25, 75), "fu2": (245, 130, 48), "fu3": (60, 180, 75),
     "fu4": (0, 130, 200), "fu5": (128, 128, 128),
@@ -153,7 +153,6 @@ def analyze(image, conf: float = 0.25, px_per_mm: float | None = None) -> Analys
     for d in detections:
         counts[d["class"]] = counts.get(d["class"], 0) + 1
     total = len(detections)
-    known = sum(counts[c] for c in ("fu1", "fu2", "fu3", "fu4"))
     mean_hairs = (sum(counts[c] * AVG_HAIRS_PER_UNIT[c] for c in AVG_HAIRS_PER_UNIT) / total) if total else 0.0
 
     annotated = image.copy()

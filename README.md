@@ -65,7 +65,7 @@ Without weights, the app loads and shows a clear status message instead of error
 
 ### Hugging Face Space
 
-This repo is Space-ready (Gradio SDK; CPU-basic tier is enough, ~5–15 s/image). Set the
+This repo is Space-ready (Gradio SDK; CPU-basic tier is enough — a few seconds per image). Set the
 `MODEL_ID` secret in Space settings to your trained model repo.
 
 ## Architecture (intentionally boring)
@@ -82,8 +82,8 @@ No server side. No accounts. No telemetry. Uploads are processed in memory and n
 - **Resolution matters.** Macro/trichoscope photos work best; wide-angle phone photos rarely
   show follicle structure. The model will fail on them, honestly.
 - **Orient your crop** same as the training data (anterior at top of the frame).
-- **fu5 is deliberate.** The "can't tell" class exists so the model can express uncertainty —
-  don't treat it as noise.
+- **fu5 = 5+ hairs.** Unclear units are not a class in v0.1 — if the model can't count a unit,
+  it usually won't detect it, so those show up as a lower count rather than a wrong label.
 - **Calibration is optional but honest.** Without a scale, density numbers are relative-only.
 - v0.1 was trained on ~688 public images. Hair types, curls, and skin tones are
   underrepresented — that's the community's first mission, not a footnote.

@@ -30,11 +30,13 @@ follicle-detection models, the datasets, and any planning simulations are:
 - Do not upload photos of identifiable patients. Public clinical datasets stay
   research-only; see the Charter.
 - Patient-identifiable data is never merged into project repositories. Violations are
-  security incidents (see governance/SECURITY.md).
+  security incidents (see https://github.com/openhairstack/governance/blob/main/SECURITY.md).
 
 ## Liability
 
-The software is provided under the licenses in `governance/LICENSING.md` "as is", without
+The software is provided under the licenses in
+[governance/LICENSING.md](https://github.com/openhairstack/governance/blob/main/LICENSING.md)
+"as is", without
 warranty of any kind. Contributors, maintainers, and the project as a whole accept no
 liability for any use beyond research and education.
 

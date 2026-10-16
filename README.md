@@ -102,8 +102,8 @@ See [MEDICAL_DISCLAIMER.md](MEDICAL_DISCLAIMER.md).
 
 ---
 
-### Questions & Community Support
+### Contact & Technical Discussions
 
-Connect with founder Salik Shah:
-* **DM on X:** [@salik](https://x.com/salik)
+A project by Salik Shah:
+* **Contact on X:** [@salik](https://x.com/salik)
 * **Discussions:** [GitHub Discussions](https://github.com/orgs/openhairstack/discussions)
